@@ -1,0 +1,11 @@
+{% extends 'back/layout_back.html.twig' %}
+
+{% block title %}Nouveau film{% endblock %}
+
+{% block body %}
+    <h1>Création d'un nouveau film ou série</h1>
+
+    {{ include('back/movie/_form.html.twig') }}
+
+    <a href="{{ path('app_back_movie_index') }}" class="btn btn-info">retour à la liste</a>
+{% endblock %}

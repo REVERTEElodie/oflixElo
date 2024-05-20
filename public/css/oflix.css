@@ -1,0 +1,67 @@
+html {
+    overflow-y: scroll;
+}
+
+.header-logo__title {
+    color: #e50914;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0.8em 0 0.3em;
+    text-transform: uppercase;
+}
+
+.h-md-300 {
+    height: 300px;
+}
+
+.movie__poster {
+    background-position: center;
+    background-size: cover;
+}
+
+.movie__poster img {
+    width: 100%;
+    /* height: 300px;
+    object-fit: cover;
+    object-position: top; */
+}
+
+.movie__favorite {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Style du bouton */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#myBtn:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Back Office */
+
+.text-truncate {
+    max-width: 150px;
+}
+
+.poster-thumbnail {
+    height: 50px;
+    width: 100px;
+}
